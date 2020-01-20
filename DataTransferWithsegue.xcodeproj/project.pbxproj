@@ -14,6 +14,8 @@
 		3189DF892383A3EF0076CEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3189DF872383A3EF0076CEC6 /* LaunchScreen.storyboard */; };
 		3189DF942383A3EF0076CEC6 /* DataTransferWithsegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189DF932383A3EF0076CEC6 /* DataTransferWithsegueTests.swift */; };
 		3189DF9F2383A3EF0076CEC6 /* DataTransferWithsegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189DF9E2383A3EF0076CEC6 /* DataTransferWithsegueUITests.swift */; };
+		3189DFAF2383A47C0076CEC6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189DFAE2383A47C0076CEC6 /* ThirdViewController.swift */; };
+		3189DFB12383A4940076CEC6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189DFB02383A4940076CEC6 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3189DF9A2383A3EF0076CEC6 /* DataTransferWithsegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferWithsegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3189DF9E2383A3EF0076CEC6 /* DataTransferWithsegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferWithsegueUITests.swift; sourceTree = "<group>"; };
 		3189DFA02383A3EF0076CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3189DFAE2383A47C0076CEC6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3189DFB02383A4940076CEC6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3189DF852383A3EF0076CEC6 /* Assets.xcassets */,
 				3189DF872383A3EF0076CEC6 /* LaunchScreen.storyboard */,
 				3189DF8A2383A3EF0076CEC6 /* Info.plist */,
+				3189DFB02383A4940076CEC6 /* SecondViewController.swift */,
+				3189DFAE2383A47C0076CEC6 /* ThirdViewController.swift */,
 			);
 			path = DataTransferWithsegue;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3189DFB12383A4940076CEC6 /* SecondViewController.swift in Sources */,
 				3189DF812383A3EC0076CEC6 /* ViewController.swift in Sources */,
+				3189DFAF2383A47C0076CEC6 /* ThirdViewController.swift in Sources */,
 				3189DF7F2383A3EC0076CEC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
